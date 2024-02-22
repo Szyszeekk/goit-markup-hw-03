@@ -19,6 +19,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .container {
@@ -100,6 +102,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading {
@@ -135,8 +140,6 @@ img {
 
 .visually-hidden {
   display: none;
-  height: 0;
-  weight: 0;
 }
 
 .advantages-list {
@@ -145,6 +148,7 @@ img {
 }
 
 .advantages-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-head {
@@ -153,7 +157,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  max-width: 496px;
+  margin-bottom: 8px;
 }
 
 .advantages-paragraph {
@@ -214,6 +218,11 @@ img {
   color: #434455;
 }
 
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-portfolio-head {
   font-weight: 700;
   font-size: 36px;
@@ -222,6 +231,24 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.our-portfolio-list-point {
+  width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio-list-point-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .our-portfolio-list-point-head {
@@ -238,6 +265,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 footer {
@@ -254,4 +282,21 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+}
+
+.foot {
+  padding: 100px 0;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
