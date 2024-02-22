@@ -17,6 +17,29 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.web-head {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.web-head-div {
+  display: flex;
+}
+
+.web-head-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo-blue {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
@@ -25,10 +48,16 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-black {
   color: #2e2f42;
+}
+
+.web-head-nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .navigation {
@@ -37,6 +66,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navigation:hover,
@@ -51,6 +81,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+
+.address-section-list {
+  display: flex;
+  gap: 40px;
 }
 
 .mail-and-phone:hover,
@@ -69,6 +104,7 @@ a {
 
 .heading {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .order-button {
@@ -79,11 +115,36 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   font-family: inherit;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
+}
+
+.advantages {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  display: none;
+  height: 0;
+  weight: 0;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-item {
 }
 
 .advantages-head {
@@ -92,6 +153,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  max-width: 496px;
 }
 
 .advantages-paragraph {
@@ -104,6 +166,7 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-head {
@@ -114,10 +177,22 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-list-point {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list-point-div {
+  padding: 32px 16px;
 }
 
 .our-team-list-point-head {
@@ -127,6 +202,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .our-team-list-point-paragraph {
