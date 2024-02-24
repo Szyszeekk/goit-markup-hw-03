@@ -35,6 +35,7 @@ img {
 
 .web-head-div {
   display: flex;
+  justify-content: space-between;
 }
 
 .web-head-nav {
@@ -159,7 +160,7 @@ img {
 /* problem */
 
 .advantages-list-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-head {
@@ -204,14 +205,14 @@ img {
 
 .our-team-list-point {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 /* problem */
 
 .our-team-list-point-div {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .our-team-list-point-head {
