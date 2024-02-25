@@ -74,6 +74,8 @@ p {
 .web-head-nav-list {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation {
@@ -168,6 +170,8 @@ p {
 .advantages-list {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 /* problem */
@@ -212,6 +216,8 @@ p {
 .our-team-list {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 /* problem */
@@ -269,6 +275,8 @@ p {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 /* problem */
